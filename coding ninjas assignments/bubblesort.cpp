@@ -18,13 +18,13 @@ int main()
 {
    int n;
        cin>>n;
-       int arr[n];
+       int *arr = new int[n];
        for(int i = 0 ;i < n ; i++)
        {
            cin>>arr[i];
        }
-        bubblesort(arr,6);
-         for(int i = 0 ;i < 6;i++)
+        bubblesort(arr,n);
+         for(int i = 0 ;i < n;i++)
     {
         cout<<arr[i]<<" ";
     }cout<<endl;

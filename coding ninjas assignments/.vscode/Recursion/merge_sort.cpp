@@ -42,7 +42,7 @@ void merge(int a[], int start, int end)
     for (; i <= k; i++)
     {
         a[i] = b[i - start];
-    }
+    }//here 0th element of b corresponds to start th element of a b is a separate entity everytime recursion is called but we are merging everything into array a where count will continue
   
 }
 void mergeSort(int a[], int start, int end)

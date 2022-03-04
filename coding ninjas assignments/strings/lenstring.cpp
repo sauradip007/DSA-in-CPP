@@ -15,5 +15,5 @@ int main()
     char a[10] = "ABCD";
     int l = length(a);
     cout<<l<<endl;
-
+   
 }
